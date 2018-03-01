@@ -1,17 +1,19 @@
 // scripts.js
-var a = 5;
-var b = 6;
+var a = prompt('podaj liczbę a');
+var b = prompt('podaj liczbę b');
 var value = (a * a) - (2 * a * b) - (b * b);
 var dodatni = 'wynik dodatni';
 var ujemny = 'wynik ujemny';
 var zero = 0;
 console.log(value);
 if (value > zero) {
-    console.log(dodatni);
+    alert(value);
+    alert('wynik dodatni');
 }
 else if (value < zero) {
-    console.log(ujemny);
+    alert(value);
+    alert('wynik ujemny');
 }
 else {
-    console.log('Właśnie wyszło 0, zachowaj spokój i licz dalej');
+    alert('Właśnie wyszło 0, zachowaj spokój i licz dalej');
 }
